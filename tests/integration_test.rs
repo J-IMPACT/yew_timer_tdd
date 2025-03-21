@@ -1,4 +1,4 @@
-use yew_timer_tdd::timer::manager::{Phase, TimerManager};
+use yew_timer_tdd::timers::manager::{Phase, TimerManager};
 
 #[test]
 fn test_timer_manager_transitions_phase() {

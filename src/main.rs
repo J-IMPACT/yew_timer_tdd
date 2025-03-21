@@ -1,5 +1,5 @@
 mod app;
-mod timer;
+mod timers;
 
 use app::App;
 use yew::Renderer;

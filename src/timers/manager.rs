@@ -1,4 +1,4 @@
-use crate::timer::timer::Timer;
+use crate::timers::timer::Timer;
 
 #[derive(Debug, PartialEq, Clone)]
 pub enum Phase {

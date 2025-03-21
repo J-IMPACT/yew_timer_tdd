@@ -1,6 +1,6 @@
 use yew::prelude::*;
 use gloo_timers::callback::Interval;
-use crate::timer::manager::{Phase, TimerManager};
+use crate::timers::manager::{Phase, TimerManager};
 
 #[function_component(App)]
 pub fn app() -> Html {
