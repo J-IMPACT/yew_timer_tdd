@@ -1,0 +1,26 @@
+[package]
+name = "yew_timer_tdd"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gloo-timers = { version = "0.3.0", features = ["futures"] }
+gloo-utils = "0.2.0"
+quickcheck = "1.0.3"
+yew = { version = "0.21.0", features = ["csr"] }
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.50"
+web-sys = "0.3.77"
+
+#1	Cargo.toml	依存追加
+#2	src/timer.rs	ロジック（TDD）
+#3	tests/integration_test.rs	結合テスト
+#4	src/app.rs	UI実装
+#5	src/main.rs	エントリーポイント
+#6	static/index.html	HTMLルート
+#7	Trunk.toml	Trunk設定
+#8	tests/component_test.rs	wasmテスト
+#9	.github/workflows/ci.yml	CI
+#10	.github/workflows/deploy.yml	Pages公開
+#11	README.md	解説ドキュメント
